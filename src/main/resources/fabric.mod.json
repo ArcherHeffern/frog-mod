@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "frog",
+	"version": "${version}",
+	"name": "frog",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Archer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/frog/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "archer.frog.FrogModInitializer"
+		],
+		"client": [
+			"archer.frog.FrogClient"
+		]
+	},
+	"mixins": [
+		"frog.mixins.json",
+		{
+			"config": "frog.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn",
+        "minecraft:frogspawn"
+    ],
+    "result": {
+        "id": "frog:frog_essence",
+        "count": 1
+    }
+}
