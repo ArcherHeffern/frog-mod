@@ -1,8 +1,6 @@
 package archer.frog;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.text.Text;
-import net.minecraft.util.Colors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
